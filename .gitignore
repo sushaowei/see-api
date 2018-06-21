@@ -1,5 +1,8 @@
 runtime
 .DS_Store
+.htaccess
+gitpush
 .idea
-
+composer.lock
+/vendor/
 
