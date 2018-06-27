@@ -24,11 +24,18 @@ class SiteController extends Controller
      */
     public function actionIndex(){
         $data = ['title'=>'首页','text'=>'Hello!'];
-        return $this->render("index", $data);
+        return $this->renderJson($data);
     }
 
     public function actionAbout(){
     	return "about".\See::$app->version;
+    }
+
+    public function actionCurl(){
+        \See::$log->debug("123123123");
+        \See::$log->debug("123123123");
+        \See::$log->debug("123123123");
+        return $this->renderJson($_SERVER);
     }
 
 }

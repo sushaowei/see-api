@@ -8,6 +8,6 @@
         }
     ],
     "require": {
-        "sushaowei/see": "2.0.5"
+        "sushaowei/see": "dev-master#baaa373"
     }
 }
